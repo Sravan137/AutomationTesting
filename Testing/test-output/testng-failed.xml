@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="demo.KatalonRecorderDemo">
+      <class name="utils.ExcelDataProvider">
         <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="testKatalonRecorderTest1"/>
+          <include name="Test1"/>
         </methods>
-      </class> <!-- demo.KatalonRecorderDemo -->
+      </class> <!-- utils.ExcelDataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
